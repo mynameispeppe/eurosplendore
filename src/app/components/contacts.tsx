@@ -8,8 +8,8 @@ export default function Contacts() {
     <div id="contacts" className="py-16 sm:py-24 bg-[#F7F7F7]">
       <div className="container max-w-6xl mx-auto px-4">
         <div className="text-center">
-          <h2 className="font-bold text-5xl sm:text-6xl lg:text-6xl  text-[#19334D]">Contattaci</h2>
-          <p className="text-lg sm:text-xl lg:text-2xl mt-4 text-[#5C738A]">
+          <h2 className="font-bold text-4xl sm:text-5xl lg:text-6xl  text-[#19334D]">Contattaci</h2>
+          <p className="text-md sm:text-xl lg:text-2xl mt-4 text-[#5C738A]">
             Siamo a tua disposizione per qualsiasi informazione
             sui nostri servizi.
           </p>

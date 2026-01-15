@@ -52,8 +52,8 @@ export default function Review () {
     <div id="reviews" className="py-16 sm:py-24 bg-[#F9FAFB]">
       <div className="container max-w-7xl mx-auto px-4">
         <div className="text-center">
-          <h2 className="font-bold text-5xl sm:text-6xl lg:text-6xl text-[#19334D]">Cosa dicono di noi</h2>
-          <p className="text-lg sm:text-xl lg:text-2xl mt-4 text-[#5C738A]">
+          <h2 className="font-bold text-4xl sm:text-5xl lg:text-6xl text-[#19334D]">Cosa dicono di noi</h2>
+          <p className="text-md sm:text-xl lg:text-2xl mt-4 text-[#5C738A]">
             La soddisfazione dei nostri clienti è la nostra migliore prestazione.
           </p>
         </div>

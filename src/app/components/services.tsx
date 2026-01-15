@@ -4,10 +4,10 @@ export default function Services() {
   return (
     <>
       <div id="services" className="flex flex-col items-center justify-center relative px-4 sm:px-6 lg:px-8 py-16 sm:py-24 bg-[#F9FAFB]">
-        <h1 className="font-bold text-[#19334D] text-5xl sm:text-6xl lg:text-6xl text-center">
+        <h1 className="font-bold text-[#19334D] text-4xl sm:text-5xl lg:text-6xl text-center">
           I Nostri servizi
         </h1>
-        <p className="font-medium text-lg sm:text-xl lg:text-2xl text-[#5C738A]  mt-4 sm:mt-6 lg:mt-4 max-w-xl lg:max-w-3xl text-center px-4">
+        <p className="font-medium text-md sm:text-xl lg:text-2xl text-[#5C738A]  mt-4 sm:mt-6 lg:mt-4 max-w-xl lg:max-w-3xl text-center px-4">
           Soluzioni complete per ogni esigenza di pulizia, con personale qualificato e prodotti ecologici.
         </p>
 
