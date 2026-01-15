@@ -1,26 +1,40 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background-primary: #F9FAFB;
+  --background-secondary: #ECF1F5;
+  --bg-card: #194066;
+  --primary: #19B3E6;
+  --secondary: #DCF2F9;
+  --text-primary: #19334D;
+  --text-secondary: #5C738A;
+  --text-tertiary: #19B3E6;
+  --border: #E0E7EB;
+  --font-sansation: var(--font-sansation);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sansation), sans-serif;
+}
+
+.glass-40 {
+  @apply bg-white/40 backdrop-blur-2xl
+}
+
+.glass-30 {
+  @apply bg-white/30 backdrop-blur-2xl
+}
+
+.btn-primary {
+  @apply bg-[#19334D] font-medium text-lg w-56 py-2 px-4 text-white shadow-md rounded-lg cursor-pointer hover:bg-[#19334D]/60;
+}
+.btn-secondary {
+  @apply  bg-[#F9FAFB] text-[#19334D] font-medium text-lg w-56 py-2 px-4  shadow-md rounded-lg cursor-pointer  hover:bg-[#DCF2F9]/80;
+}
+.border {
+  border: 1px solid #E0E7EB;
+}
+
+.bg-gradient {
+  background: radial-gradient(circle at 100% 0%, #128FBA 50%, #dcf2f9 80%)
 }
