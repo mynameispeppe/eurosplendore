@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Contacts() {
-  const address = "Via Pietro Novelli 7, 95041 Caltagirone";
+  const address = "Via Pietro Novelli 7/A, 95041 Caltagirone";
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
   return (
@@ -21,7 +21,7 @@ export default function Contacts() {
             </div>
             <div className="flex flex-col ml-4">
               <p className=" text-[#5C738A]">Telefono</p>
-              <a href="tel:+390212345678" className="text-[#19334D] font-bold mt-2 hover:underline">+39 02 1234 5678</a>
+              <a href="tel:+393311681233" className="text-[#19334D] font-bold mt-2 hover:underline">+39 331 168 1233</a>
             </div>
           </div>
           <div className="bg-[#F9FAFB]  border p-4 rounded-2xl  flex items-center">
@@ -30,7 +30,7 @@ export default function Contacts() {
             </div>
             <div className="flex flex-col ml-4">
               <p className=" text-[#5C738A]">Email</p>
-              <a href="mailto:info@eurosplendor.it" className="text-[#19334D] font-bold mt-2 hover:underline">info@eurosplendor.it</a>
+              <a href="mailto:eurosplendore@gmail.it" className="text-[#19334D] font-bold mt-2 hover:underline">eurosplendore@gmail.it</a>
             </div>
           </div>
           <div className="bg-[#F9FAFB]  border p-4 rounded-2xl  flex items-center">
@@ -48,7 +48,7 @@ export default function Contacts() {
             </div>
             <div className="flex flex-col ml-4">
               <p className=" text-[#5C738A]">Orari</p>
-              <p className="text-[#19334D] font-bold mt-2">Lun-Ven: 08:00 - 18:00</p>
+              <p className="text-[#19334D] font-bold mt-2">Lun-Ven: 07:00-13:00 / 15:00-18:00</p>
             </div>
           </div>
         </div>

@@ -1,6 +1,9 @@
 import Image from "next/image";
 
 export default function About() {
+  const startYear = 1993;
+  const currentYear = new Date().getFullYear();
+  const yearsOfService = currentYear - startYear;
   return (
     <div id="about" className="bg-[#F7F7F7] py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-6 max-w-7xl mx-auto">
@@ -10,7 +13,7 @@ export default function About() {
             Chi è  <span className="text-[#128FBA]">Euro Splendore</span>
           </h2>
           <p className="mt-4 ml-1 text-lg sm:text-xl lg:text-2xl text-[#5C738A] font-medium">
-            Da oltre 32 anni, EuroSplendore è sinonimo di eccellenza nel settore delle pulizie professionali. La nostra missione è semplice: rendere ogni ambiente splendente, sicuro e accogliente.
+            Da oltre {yearsOfService} anni, EuroSplendore è sinonimo di eccellenza nel settore delle pulizie professionali. La nostra missione è semplice: rendere ogni ambiente splendente, sicuro e accogliente.
           </p>
           <p className="mt-4 ml-1 text-lg sm:text-lg lg:text-xl text-[#5C738A] font-medium">
             Il nostro team di professionisti altamente qualificati utilizza tecniche all&lsquo;avanguardia e prodotti eco-compatibili per garantire risultati impeccabili. La soddisfazione del cliente è la nostra priorità assoluta.
@@ -18,7 +21,7 @@ export default function About() {
           <div className="mt-6 flex flex-wrap gap-4">
             <div className="flex items-center bg-[#DCF2F9] border font-medium p-1  px-4 rounded-full text-md">
               <Image src="/icons/shield-check.svg" alt="Shield icon" width={20} height={20} />
-              <span className='ml-2'>Certificati ISO</span>
+              <span className='ml-2'>Certificati ISO: 9001, 14001</span>
             </div>
             <div className="flex items-center bg-[#DCF2F9] border font-medium  p-1 px-6 rounded-full text-md">
               <Image src="/icons/world.svg" alt="World icon" width={20} height={20} />

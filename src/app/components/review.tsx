@@ -4,24 +4,24 @@ import Image from "next/image";
 
 const reviews = [
   {
-    text: "Servizio impeccabile! Da quando ho scelto Euro Splendore, la mia casa è sempre splendente. Personale puntuale e professionale.",
-    author: "Mario Rossi",
+    text: "Servizio eccellente! Euro Splendore garantisce pulizie accurate e costanti. Staff organizzato, affidabile e sempre disponibile.",
+    author: "Luca Bianchi",
+    role: "Responsabile servizi generali – istituto bancario",
+  },
+  {
+    text: "Ottima azienda si occupa sia di pulizie che disinfestazione, personale molto professionale, lo consiglio a chi ne avesse bisogno",
+    author: "Irene Nicotra",
+    role: "Cliente privato",
+  },
+  {
+    text: "Servizio eccellente! Euro Splendore garantisce pulizie accurate e costanti. Staff organizzato, affidabile e sempre disponibile.",
+    author: "Paolo Ferri",
     role: "Amministratore condominiale",
   },
   {
-    text: "Servizio impeccabile! Da quando ho scelto Euro Splendore, la mia casa è sempre splendente. Personale puntuale e professionale.",
-    author: "Mario Rossi",
-    role: "Amministratore condominiale",
-  },
-  {
-    text: "Servizio impeccabile! Da quando ho scelto Euro Splendore, la mia casa è sempre splendente. Personale puntuale e professionale.",
-    author: "Mario Rossi",
-    role: "Amministratore condominiale",
-  },
-  {
-    text: "Servizio impeccabile! Da quando ho scelto Euro Splendore, la mia casa è sempre splendente. Personale puntuale e professionale.",
-    author: "Mario Rossi",
-    role: "Amministratore condominiale",
+    text: "Ottima esperienza! Ho contattato Euro Splendore per pulizie e disinfestazione. Lavoro preciso, risultati eccellenti e staff organizzato e affidabile.",
+    author: "Giulia Romano",
+    role: "Cliente privata",
   },
 ];
 

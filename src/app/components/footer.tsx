@@ -2,8 +2,11 @@ import Link from 'next/link';
 import Image from "next/image";
 
 export default function Footer() {
-  const address = "Via Pietro Novelli 7, 95041 Caltagirone";
+  const address = "Via Pietro Novelli 7/A, 95041 Caltagirone";
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const startYear = 1993;
+  const currentYear = new Date().getFullYear();
+  const yearsOfService = currentYear - startYear;
 
   return (
     <footer className="bg-[#194066] text-[#F9FAFB]">
@@ -23,7 +26,7 @@ export default function Footer() {
               />
             </div>
             <p className="ml-2">
-              Da oltre 32 anni al servizio della pulizia e dell&apos;igiene. Affidabilità, professionalità e
+              Da oltre {yearsOfService} anni al servizio della pulizia e dell&apos;igiene. Affidabilità, professionalità e
               attenzione ai dettagli sono i nostri valori fondamentali.
             </p>
           </div>
@@ -43,11 +46,11 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <Image src="/icons/phone-white.svg" alt="Phone icon" width={24} height={24} />
-                  <a href="tel:+390212345678" className="ml-2 text-white/70 hover:text-white">+39 02 1234 5678</a>
+                  <a href="tel:+393311681233" className="ml-2 text-white/70 hover:text-white">+39 331 168 1233</a>
                 </li>
                 <li className="flex items-center">
                   <Image src="/icons/mail-white.svg" alt="Mail icon" width={24} height={24} />
-                  <a href="mailto:info@eurosplendore.it" className="ml-2 text-white/70 hover:text-white">info@eurosplendore.it</a>
+                  <a href="mailto:eurosplendore@gmail.it" className="ml-2 text-white/70 hover:text-white">eurosplendore@gmail.it</a>
                 </li>
                 <li className="flex items-center">
                   <Image src="/icons/location-white.svg" alt="Location icon" width={24} height={24} />
