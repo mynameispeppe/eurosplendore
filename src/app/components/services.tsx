@@ -17,7 +17,7 @@ export default function Services() {
             <div className="absolute top-0 right-0 w-60 h-60 bg-gradient rounded-full opacity-90 -mr-24 -mt-24"></div>
             <div className="relative z-10">
               <div className="w-14 h-14 glass-30 rounded-xl mb-6 flex items-center justify-center">
-                <Image src="/icons/building-office.svg" alt="Building icon" width={24} height={24} />
+                <Image src="/icons/home-happy.svg" alt="Home icon" width={24} height={24} />
               </div>
               <h2 className="text-2xl text-white font-bold mb-2 mt-12">Pulizie professionali</h2>
               <p className="text-md text-white/90 mb-6 w-80">Servizi completi per ambienti civili e industriali, con interventi programmati.</p>
@@ -42,7 +42,7 @@ export default function Services() {
             <div className="absolute top-0 right-0 w-60 h-60 bg-gradient rounded-full opacity-90 -mr-24 -mt-24"></div>
             <div className="relative z-10">
               <div className="w-14 h-14 glass-30 rounded-xl mb-6 flex items-center justify-center">
-                <Image src="/icons/building-office.svg" alt="Building icon" width={24} height={24} />
+                <Image src="/icons/tools.svg" alt="Tools icon" width={24} height={24} />
               </div>
               <h2 className="text-2xl text-white font-bold mb-2 mt-12">Manutenzione immobili</h2>
               <p className="text-md text-white/90 mb-6 w-72">Interventi tecnici mirati per la cura, il ripristino e il mantenimento degli spazi.</p>
@@ -53,11 +53,11 @@ export default function Services() {
                 </li>
                 <li className="flex items-center gap-4">
                   <Image src="/icons/check-circle.svg" alt="" width={16} height={16} className="shrink-0" />
-                  <span>Lucidatura marmi e graniti</span>
+                  <span>Disinfestazione e Derattizzazione</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <Image src="/icons/check-circle.svg" alt="" width={16} height={16} className="shrink-0" />
-                  <span>Restauro facciate</span>
+                  <span>Pulizia pannelli solari</span>
                 </li>
               </ul>
             </div>
@@ -67,7 +67,7 @@ export default function Services() {
             <div className="absolute top-0 right-0 w-60 h-60 bg-gradient rounded-full opacity-90 -mr-24 -mt-24"></div>
             <div className="relative z-10">
               <div className="w-14 h-14 bg-white/30 backdrop-blur-2xl rounded-xl mb-6 flex items-center justify-center">
-                <Image src="/icons/building-office.svg" alt="Building icon" width={24} height={24} />
+                <Image src="/icons/building-tree.svg" alt="Building icon" width={24} height={24} />
               </div>
               <h2 className="text-2xl text-white font-bold mb-2 mt-12">Servizi integrati</h2>
               <p className="text-md text-white/90 mb-6 w-72">Gestione operativa di strutture e servizi per enti pubblici e privati.</p>
@@ -78,7 +78,7 @@ export default function Services() {
                 </li>
                 <li className="flex items-center gap-4">
                   <Image src="/icons/check-circle.svg" alt="" width={16} height={16} className="shrink-0" />
-                  <span>Gestione mense e impianti</span>
+                  <span>Raccolta differenziata personalizzata</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <Image src="/icons/check-circle.svg" alt="" width={16} height={16} className="shrink-0" />
